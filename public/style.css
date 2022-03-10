@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+main{
+    font-family: 'Akaya Telivigala', cursive;;
+}
+header{
+    background-color: rgb(96, 35, 167);
+    padding: 40px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Akaya Telivigala', cursive;;
+}
+header img{
+    width: 60px;
+}
+nav img{
+    height: 20px;
+    width: 10px;
+}
+nav{
+    display: flex;
+    position: sticky;
+    align-items: center;
+}
+nav::before{
+    content: "";
+    background-color: #000000;
+    padding: 13px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 58%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+nav a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 15px 34px;
+}
+nav a:hover{
+    color: gold;
+}
+main{
+    text-align: center;
+}
+.container .h-primary-center{
+    margin: 10px;
+    font-size: 30px;
+}
+#services{
+    display: flex;
+}
+#services .box{
+    border: 4px solid red;
+    margin: 13px 31px;
+    padding: 16px 40px;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}
+#services .box img{
+    height: 175px;
+    width: 181px;
+    margin: 18px 90px;
+    display: block;
+}
+#services h4{
+    font-size: 25px;
+}
+#services p{
+    font-size: 20px;
+}
+#services1 .box1{
+    border: 4px solid brown;
+    margin: 13px 70px;
+    border-radius: 50px;
+    background-color: rgb(205, 255, 255);
+    padding: 10px 20px;
+}
+#services1 .box1 img{
+    height: 180px;
+    width: 244px;
+    margin: 20px 100px;
+}
+.container1 .h1-primary-center{
+    margin: 10px;
+    font-size: 30px;
+}
+#services1 h4{
+    font-size: 25px;
+}
+#services1 p{
+    font-size: 20px;
+}
+.box2{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myInp{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(181, 215, 245, 0.664);
+}
+.container2{
+    background-color: rgb(187, 127, 247);
+}
+.btn{
+    padding: 12px 16px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(243, 16, 16);
+    cursor: pointer;
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
